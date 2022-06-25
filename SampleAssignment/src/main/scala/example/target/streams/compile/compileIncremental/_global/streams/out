@@ -1,20 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/Lists.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/Lists.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
-[0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
-[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/Yi/Desktop/Coding/Parallel/src/main/scala/example/target/scala-2.12/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.6.0:compile for Scala 2.12.15[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4eadacc7 for Scala compiler version 2.12.15[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/Yi/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/Yi/Desktop/Coding/Parallel/src/main/scala/example/target/scala-2.12/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.919861972 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 5 products, 2 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/Lists.scala, ${BASE}/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

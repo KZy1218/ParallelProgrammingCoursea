@@ -1,0 +1,52 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:3:12: object scalameter is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalameter._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:7:24: not found: value config[0m
+[0m[[0m[31merror[0m] [0m[0m  val standardConfig = config([0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:8:5: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m    Key.exec.minWarmupRuns := 5,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:9:5: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m    Key.exec.maxWarmupRuns := 10,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:10:5: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m    Key.exec.benchRuns := 10,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:11:5: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m    Key.verbose := false[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/HorizontalBoxBlur.scala:12:20: not found: value Warmer[0m
+[0m[[0m[31merror[0m] [0m[0m  ) withWarmer(new Warmer.Default)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/package.scala:4:12: object scalameter is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalameter._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:3:12: object scalameter is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalameter._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/ScalaShop.scala:3:12: object scalameter is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalameter._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/ScalaShop.scala:51:20: not found: value measure[0m
+[0m[[0m[31merror[0m] [0m[0m        val time = measure {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:7:26: not found: value config[0m
+[0m[[0m[31merror[0m] [0m[0m    val standardConfig = config([0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:8:9: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m        Key.exec.minWarmupRuns := 5,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:9:9: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m        Key.exec.maxWarmupRuns := 10,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:10:9: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m        Key.exec.benchRuns := 10,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:11:9: not found: value Key[0m
+[0m[[0m[31merror[0m] [0m[0m        Key.verbose := false[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/src/main/scala/scalashop/VerticalBoxBlur.scala:12:22: not found: value Warmer[0m
+[0m[[0m[31merror[0m] [0m[0m    ) withWarmer(new Warmer.Default)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
