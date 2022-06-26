@@ -1,31 +1,29 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/target/scala-2.13/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurRunner.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurRunner$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlur.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurInterface.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurRunner.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$ScalaShopFrame$$anon$5.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$ScalaShopFrame$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$ScalaShopFrame.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$ScalaShopFrame$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	package$Img.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BoxBlurKernelInterface.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	package$TaskScheduler.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	package$DefaultTaskScheduler.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$ScalaShopFrame$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurRunner$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ScalaShop$ScalaShopFrame$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlur$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	PhotoCanvas.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurInterface.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	package$DefaultTaskScheduler$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlur.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlur$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlur.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlur$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlur.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlur$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlur.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlurRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlurRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlur$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	VerticalBoxBlur.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HorizontalBoxBlur$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/Yi/Desktop/Coding/Parallel/BoxBlurFilter/target/scala-2.13/classes.bak[0m
