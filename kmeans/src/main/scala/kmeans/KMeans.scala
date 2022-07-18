@@ -76,7 +76,7 @@ class KMeans extends KMeansInterface {
     final def kMeans(points: ParSeq[Point], means: ParSeq[Point], eta: Double): ParSeq[Point] = {
         val currentMap = classify(points, means)
         val nextMean = update(currentMap, means)
-        if (!converged(eta, means, nextMean) kMeans(points, nextMean, eta) else nextMean // your implementation need to be tail recursive
+        if (!converged(eta, means, nextMean)) kMeans(points, nextMean, eta) else nextMean // your implementation need to be tail recursive
     }
 }
 
