@@ -76,13 +76,13 @@ package object barneshut {
 
         def insert(b: Body): Fork = {
             if (b.x <= centerX && b.y <= centerY) {
-                Fork(nw, ne, sw.insert(b), se)
-            } else if (b.x <= centerX && b.y > centerY) {
                 Fork(nw.insert(b), ne, sw, se)
+            } else if (b.x <= centerX && b.y > centerY) {
+                Fork(nw, ne, sw.insert(b), se)
             } else if (b.x > centerX && b.y > centerY) {
-                Fork(nw, ne.insert(b), sw, se)
-            } else {
                 Fork(nw, ne, sw, se.insert(b))
+            } else {
+                Fork(nw, ne.insert(b), sw, se)
             }
         }
     }
@@ -98,7 +98,7 @@ package object barneshut {
 
         def insert(b: Body): Quad = {
             if (size > minimumSize) {
-                val (quadsize, halfsize) = (size / 4, size / 2)
+                val (quadsize: Float, halfsize: Float) = (size / 4, size / 2)
                 val fork = Fork(
                     Empty(centerX - quadsize, centerY - quadsize, halfsize),
                     Empty(centerX + quadsize, centerY - quadsize, halfsize),
@@ -106,13 +106,12 @@ package object barneshut {
                     Empty(centerX + quadsize, centerY + quadsize, halfsize)
                 )
 
-                for (bb <- bodies :+ b) {
+                for (bb <- b +: bodies) {
                     fork.insert(bb)
                 }
                 fork
-
             } else {
-                Leaf(centerX, centerY, size, bodies :+ b)
+                Leaf(centerX, centerY, size, b +: bodies)
             }
 
         }
